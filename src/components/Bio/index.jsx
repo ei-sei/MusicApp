@@ -1,7 +1,6 @@
 import './Bio.css';
 
-export default function Bio(props) {
-  const { name, bio } = props;
+export default function Bio({name, bio}) {
 
   return (
     <div>

@@ -1,17 +1,19 @@
-import './Album.css';
+import React from 'react';
 
-export default function Album(props) {
-  const { title, coverImage, tracks } = props;
-
+export default function Album({ albums }) {
   return (
     <div>
-      <h3>{title}</h3>
-      <img src={coverImage} alt={title} />
-      <ul>
-        {tracks.map(function (track, index) {
-          return <li key={index}>{track}</li>;
-        })}
-      </ul>
+      {albums.map((album, index) => (
+        <div key={index}>
+          <h2>{album.title}</h2>
+          <img src={album.coverImage} alt={`Cover for ${album.title}`} />
+          <ul>
+            {album.tracks.map((track, index) => (
+              <li key={index}>{track}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </div>
   );
 }
