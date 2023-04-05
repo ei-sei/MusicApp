@@ -5,7 +5,7 @@ export default function Bio({name, bio}) {
   return (
     <div>
       <h2>{name}</h2>
-      <p>{bio}</p>
+      <p role="summary">{bio}</p>
     </div>
   );
 }
