@@ -1,27 +1,30 @@
 button {
     padding: 10px 20px;
-    border-radius: 50px;
-    border: 0;
-    background-color: white;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-    letter-spacing: 1.5px;
-
-    font-size: 15px;
-    transition: all .5s ease;
-   }
-   
-   button:hover {
-    letter-spacing: 3px;
-    background-color: hsl(261deg 80% 48%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
-   }
-   
-   button:active {
-    letter-spacing: 3px;
-    background-color: hsl(261deg 80% 48%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
-    transform: translateY(10px);
-    transition: 100ms;
-   }
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #f2f2f2;
+    border-color: #999;
+    color: #999;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:active {
+    background-color: #e6e6e6;
+    border-color: #666;
+    color: #666;
+    transform: scale(0.95);
+    transition: all 0.1s ease;
+  }
+  

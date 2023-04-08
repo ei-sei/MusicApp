@@ -14,14 +14,17 @@ export default function Album({ albums }) {
   };
 
   return (
-    <div className="album-container">
-      {albums.map((album, index) => (
-        <div className="album" key={index}>
-          <h3>{album.title}</h3>
-          <img src={album.coverImage} alt={`Cover for ${album.title}`} />
-          <LikeButton likes={likes[index]} onClick={() => handleLike(index)} />
-        </div>
-      ))}
+    <div className="album-wrapper">
+      <h2 className="title">Albums</h2>
+      <div className="album-container">
+        {albums.map((album, index) => (
+          <div className="album" key={index}>
+            <h3>{album.title}</h3>
+            <img src={album.coverImage} alt={`Cover for ${album.title}`} />
+            <LikeButton likes={likes[index]} onClick={() => handleLike(index)} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
