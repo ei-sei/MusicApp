@@ -1,10 +1,11 @@
 import React from 'react';
+import './Album.css';
 
 export default function Album({ albums }) {
   return (
-    <div>
+    <div className="album-container">
       {albums.map((album, index) => (
-        <div key={index}>
+        <div className="album" key={index}>
           <h3>{album.title}</h3>
           <img src={album.coverImage} alt={`Cover for ${album.title}`} />
           {/* <ul>
@@ -17,4 +18,3 @@ export default function Album({ albums }) {
     </div>
   );
 }
-
