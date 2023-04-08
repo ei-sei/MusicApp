@@ -7,11 +7,11 @@ export default function Album({ albums }) {
         <div key={index}>
           <h3>{album.title}</h3>
           <img src={album.coverImage} alt={`Cover for ${album.title}`} />
-          <ul>
+          {/* <ul>
             {album.tracks.map((track, index) => (
               <li key={index}>{track}</li>
             ))}
-          </ul>
+          </ul> */}
         </div>
       ))}
     </div>

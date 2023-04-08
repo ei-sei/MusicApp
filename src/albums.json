@@ -2,7 +2,8 @@
     {
         "id": 1,
         "title": "Goodbye Yellow Brick Road",
-        "coverImage": "https://upload.wikimedia.org/wikipedia/en/8/86/Elton_John_-_Goodbye_Yellow_Brick_Road.jpg",
+        "year": 1973,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Elton_John_-_Goodbye_Yellow_Brick_Road.jpg/220px-Elton_John_-_Goodbye_Yellow_Brick_Road.jpg",
         "tracks": [
             "Funeral for a Friend/Love Lies Bleeding",
             "Candle in the Wind",
@@ -11,16 +12,103 @@
             "This Song Has No Title",
             "Grey Seal",
             "Jamaica Jerk-Off",
-            "I\"ve Seen That Movie Too",
+            "I've Seen That Movie Too",
             "Sweet Painted Lady",
             "The Ballad of Danny Bailey (1909-34)",
             "Dirty Little Girl",
             "All the Girls Love Alice",
-            "Your Sister Can\"t Twist (But She Can Rock \"n Roll)",
-            "Saturday Night\"s Alright for Fighting",
+            "Your Sister Can't Twist (But She Can Rock 'n Roll)",
+            "Saturday Night's Alright for Fighting",
             "Roy Rogers",
             "Social Disease",
             "Harmony"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Madman Across the Water",
+        "year": 1971,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Elton_John_-_Madman_Across_the_Water.jpg/220px-Elton_John_-_Madman_Across_the_Water.jpg",
+        "tracks": [
+            "Tiny Dancer",
+            "Levon",
+            "Razor Face",
+            "Madman Across the Water",
+            "Indian Sunset",
+            "Holiday Inn",
+            "Rotten Peaches",
+            "All the Nasties",
+            "Goodbye"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Captain Fantastic and the Brown Dirt Cowboy",
+        "year": 1975,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Elton_John_-_Captain_Fantastic_and_the_Brown_Dirt_Cowboy.jpg/220px-Elton_John_-_Captain_Fantastic_and_the_Brown_Dirt_Cowboy.jpg",
+        "tracks": [
+            "Captain Fantastic and the Brown Dirt Cowboy",
+            "Tower of Babel",
+            "Bitter Fingers",
+            "Tell Me When the Whistle Blows",
+            "Someone Saved My Life Tonight",
+            "(Gotta Get A) Meal Ticket",
+            "Better Off Dead",
+            "Writing",
+            "We All Fall in Love Sometimes",
+            "Curtains"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Tumbleweed Connection",
+        "year": 1970,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Elton_John_-_Tumbleweed_Connection.jpg/220px-Elton_John_-_Tumbleweed_Connection.jpg",
+        "tracks": [
+            "Ballad of a Well-Known Gun",
+            "Come Down in Time",
+            "Country Comfort",
+            "Son of Your Father",
+            "My Father's Gun",
+            "Where to Now St. Peter?",
+            "Love Song",
+            "Amoreena",
+            "Talking Old Soldiers",
+            "Burn Down the Mission"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Honky Chateau",
+        "year": 1972,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Elton_John_-_Honky_Ch%C3%A2teau.jpg/220px-Elton_John_-_Honky_Ch%C3%A2teau.jpg",
+        "tracks": [
+            "Honky Cat",
+            "Mellow",
+            "I Think I'm Going to Kill Myself",
+            "Susie (Dramas)",
+            "Rocket Man (I Think It's Going to Be a Long, Long Time)",
+            "Salvation",
+            "Slave",
+            "Amy",
+            "Mona Lisas and Mad Hatters",
+            "Hercules"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Don't Shoot Me I'm Only the Piano Player",
+        "year": 1973,
+        "coverImage": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Elton_John_-_Don%27t_Shoot_Me_I%27m_Only_the_Piano_Player.jpg/220px-Elton_John_-_Don%27t_Shoot_Me_I%27m_Only_the_Piano_Player.jpg",
+        "tracks": [
+            "Daniel",
+            "Teacher I Need You",
+            "Elderberry Wine",
+            "Blues for My Baby and Me",
+            "Midnight Creeper",
+            "Have Mercy on the Criminal",
+            "I'm Going to Be a Teenage Idol",
+            "Texan Love"
         ]
     }
 ]
