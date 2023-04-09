@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './Album.css';
 import LikeButton from '../LikeButton';
 
-export default function Album({ albums }) {
+export default function Album({ albums, tracks }) {
   // Create an array of likes state variables with initial value 0 for each album
   const [likes, setLikes] = useState(albums.map(() => 0));
 
@@ -22,6 +22,12 @@ export default function Album({ albums }) {
             <h3>{album.title}</h3>
             <img src={album.coverImage} alt={`Cover for ${album.title}`} />
             <LikeButton likes={likes[index]} onClick={() => handleLike(index)} />
+
+            {/* <ul>
+              {albums.map(function (track, index) {
+                return <li key={index}>{track}</li>;
+              })}
+            </ul> */}
           </div>
         ))}
       </div>
