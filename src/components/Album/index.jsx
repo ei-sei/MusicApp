@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './Album.css';
 import LikeButton from '../LikeButton';
 
-export default function Album({ albums, tracks }) {
+export default function Album({ albums }) {
   // Create an array of likes state variables with initial value 0 for each album
   const [likes, setLikes] = useState(albums.map(() => 0));
 
