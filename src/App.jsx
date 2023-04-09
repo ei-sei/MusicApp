@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import data from './albums.json'
+import data from './assets/albums.json'
 import { Album, Bio } from './components';
 
 export default function App() {
