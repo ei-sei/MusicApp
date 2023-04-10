@@ -1,0 +1,12 @@
+#bio-summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
