@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import data from './assets/albums.json'
-import { Album, Bio, Lyrics } from './components';
+import { Album, Bio } from './components';
 
 
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
     <div>
       <Bio name="Elton John" bio={bio} />
       <Album albums={albums} />
-      <Lyrics/>
+      {/* <Lyrics/> */}
     </div>
   );
 }
